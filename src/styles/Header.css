@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .company-name h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .user-greeting {
+    font-size: 24px;
+  }

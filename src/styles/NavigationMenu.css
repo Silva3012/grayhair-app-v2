@@ -1,0 +1,30 @@
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  .navigation-menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation-menu li {
+    margin: 0 10px;
+  }
+  
+  .navigation-menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .navigation-menu a:hover {
+    background-color: #666;
+  }
+  
