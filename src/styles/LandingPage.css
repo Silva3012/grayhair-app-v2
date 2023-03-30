@@ -3,4 +3,8 @@
     padding: 50px;
   }
   
+  .carousel-item img {
+    height: 400px; /* set a fixed height for the carousel images */
+    object-fit: cover; /* make sure the image covers the entire carousel item */
+  }
  
