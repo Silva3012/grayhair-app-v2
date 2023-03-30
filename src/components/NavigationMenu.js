@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; //Import the Link component
+import { Link, Route } from 'react-router-dom'; //Import the Link component
 import '../styles/NavigationMenu.css';
 
-function NavigationMenu() {
+function NavigationMenu({ loggedIn }) {
     return (
         <nav className="navigation-menu">
             <ul>
@@ -25,6 +25,14 @@ function NavigationMenu() {
                 <li>
                     <Link to='/legal'>Legal</Link>
                 </li>
+
+                {/* Interest Calculator, conditionally rendered */}
+                {loggedIn && (
+                    <li>
+                        <Link to='/interest-calculator'>Interest Calculator</Link>
+                    </li>
+                )}
+                
             </ul>
         </nav>
     );
